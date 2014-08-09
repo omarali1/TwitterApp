@@ -1,0 +1,11 @@
+{
+  "name": "TwitterApp",
+  "version": "0.0.0",
+  "description": "An app that takes a twitter keyword as argument and displays all related public stream",
+  "main": "twitter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}
