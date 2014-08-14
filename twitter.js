@@ -39,7 +39,7 @@ var oauth = new OAuth.OAuth(
       '2719762452-CEg9qMDKpnR2d9tjx54xu11VFu6vJzvR5TnbNaM', //test user token
       'oo6DDZlflz6kqXRQQRQGCKiwtZLnxF5Yhidd5GXvJ1Jsi', //test user secret            
       function (error, data, response){
-      	console.log("", error);
+      	console.log("", data.toString("utf8"));
       	response.on("data", function(d){
 		console.log("", d.toString("utf8"));
 		var tweet = JSON.parse(d);
